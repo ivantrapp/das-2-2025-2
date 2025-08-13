@@ -32,3 +32,14 @@ AWS CloudWatch - logs
 Designing services, not servers.
 
 Securing infrastructure with encryption in transit and at rest.
+
+# AULA 06/08
+
+IAM
+
+# AULA 13/08
+IAM Roles -> definição para cargos temporários para usuários.
+
+Policies e permissions
+Identity based policies -> Permissão para usuário.
+Resource based policies -> Permissão para um recurso. (Definir comportamento global, todos usuários que mexem no s3 só podem ler, por exemplo)
