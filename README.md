@@ -43,3 +43,31 @@ IAM Roles -> definição para cargos temporários para usuários.
 Policies e permissions
 Identity based policies -> Permissão para usuário.
 Resource based policies -> Permissão para um recurso. (Definir comportamento global, todos usuários que mexem no s3 só podem ler, por exemplo)
+
+
+# AULA 20/08
+
+S3 -> Block storage, File storage, object store (foto,json,xml);
+
+Dados ilimitados.
+Todo objeto recebe uma url publica, mas não necessariamente estará disponível para visualização. 
+
+Durabilidade -> 11 noves, 99.999999999
+Disponibilidade -> 4 noves, 99.99
+Alta performance
+
+Hospedar sites estáticos
+
+Buckets são globais, porém um balde sempre está em uma região.
+Multipart upload
+
+Upload 
+
+internet -> S3 Mais lento
+internet -> edge location (cloudfront) -> s3 Mais rápido
+
+AWS Transfer Family
+Conectar no s3 via protocolo FTP.
+
+Storage class
+Standard, Intelligent tiering, infrequent-access, glacier instant retrieval, glacier flexible retriever, glacier deep archive;
