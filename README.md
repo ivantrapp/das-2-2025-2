@@ -71,3 +71,11 @@ Conectar no s3 via protocolo FTP.
 
 Storage class
 Standard, Intelligent tiering, infrequent-access, glacier instant retrieval, glacier flexible retriever, glacier deep archive;
+
+# AULA 27/08
+
+S3 -> Escolher região:
+leis -> latência -> features do S3 por região -> custo de armazenamento
+
+AWS S3 Inventory
+API além da básica para gerar relatório sobre os objetos do bucket
