@@ -1,5 +1,13 @@
 # das-2-2025-2
 AWS Cloud Architecting
+
+RODAR PYHTHON 
+
+cd s3
+python -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+
 # AULA 30/07
 
 - AWS Well-Architected framework
