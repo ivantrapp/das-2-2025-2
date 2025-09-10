@@ -87,3 +87,36 @@ leis -> latência -> features do S3 por região -> custo de armazenamento
 
 AWS S3 Inventory
 API além da básica para gerar relatório sobre os objetos do bucket
+
+# AULA 03/09 Cloud computing
+- Serviços computacionais da AWS (EC2)
+- EC2 -> Maquina virtual
+- On-demand ($$$), Reserved instance ($$), Spot-instance($)
+- EKS, ECS -> Containers
+- LightSail -> Virtual Private Servers (VPS);
+- Elastic Beanstalk - PaaS;
+- Lambda e Fargate - Serverless;
+- Amazon Machine Images (AMI)
+- Tipos de Instâncias
+- Tipos de Storage (EBS/Instance Store)
+- Acesso via SSH
+
+# AULA 10/09
+
+- Instance store: Cache foda. Não persistente.
+Hd físico na placa mãe
+- Amazon EBS: Hd para EC2. Persistente.
+Precisa monitorar saúde dos discos provisionados (fazer backup e trocar de volume EBS de tempos em tempos) 
+
+- EBS e S3 não é fileshare;
+
+- Fileshares AWS -> Amazon EFS (linux) e Amazon FSx (windows)
+
+- Amazon EFS -> Linux
+- Elastic Fileshare, protocolo NFS, petabytes de storage;
+- Copia em 3 az diferente, com 3 placas de redes;
+
+- Amazon FSx -> 4 tipos
+- For windows, For NETAPP, For openzfs, For luster HPC(High performance);
+- Não é elastico
+- Compatível com Linux
