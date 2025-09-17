@@ -120,3 +120,22 @@ Precisa monitorar saúde dos discos provisionados (fazer backup e trocar de volu
 - For windows, For NETAPP, For openzfs, For luster HPC(High performance);
 - Não é elastico
 - Compatível com Linux
+
+# AULA 17/09
+
+AMI -> BASIC, SILVER, GOLDEN;
+Maquinas virtuais pré configuradas.
+
+Placement groups -> Pode definir localização física da maquina virtual.
+Estratégias de placement -> Cluster, Spread, Partition;
+
+Cluster -> Colocar no mesmo data center, no mesmo rack fisico, alta performance.
+Spread -> Maquinas espalhadas em varios data center dentro da mesma regiao, alta disponibilidade.
+Partition -> Meio termo, não agrupa maquinas com o mesmo grupo lógico de dados.
+
+Precificação EC2
+
+- On-demand, 
+- Reserved instance (reservar maquina por x anos),
+- Savings plans (commit de assinatura de ec2 basicamente) 
+- Spot instance (usa maquinas ociosas, mas pode cair a qualquer momento pela aws pegar de volta a maquina).
