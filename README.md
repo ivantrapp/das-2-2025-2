@@ -181,3 +181,7 @@ AAAA -> IPV6
 CNAME -> Apontando para outro dns
 
 Amazon Route 53
+Roteia as conexões, serviço de DNS da AWS.
+
+Amazon CloudFront
+CDN da AWS -> Carrega para edge locations o conteúdo
