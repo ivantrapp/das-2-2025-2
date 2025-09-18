@@ -139,3 +139,39 @@ Precificação EC2
 - Reserved instance (reservar maquina por x anos),
 - Savings plans (commit de assinatura de ec2 basicamente) 
 - Spot instance (usa maquinas ociosas, mas pode cair a qualquer momento pela aws pegar de volta a maquina).
+
+REDES NA AWS
+
+Amazon VPC -> Rede da aws
+Vpc está em uma região.
+Subnet está em uma zona de disponibilidade.
+
+Subnet publica: visivel para internte
+1- Internet gateway -> roteador
+2- subnet publica
+3- ip publico internet gateway
+
+Peering conection
+Conexão entre 2 vpc
+
+AWS Site-to-site VPN
+Empresa -> Customer gateway -> internet -> Virtual gateway -> AWS
+
+AWS Direct Connect
+Fibra óptica da empresa pra região.
+
+VPC Endpoints
+Túnel por dentro da aws para falar com outro serviço dentro da aws.
+
+Vpc endpoint gateway -> s3 e dynamoDB, muito manual, gratis.
+Vpc endpoint interface -> Conecta com quase todos serviços, fácil de usar e precisa pagar.
+
+AWS Transit gateway
+Hub de redes, faz a conexão de tudo de redes entre vpc, peering, vpn etc.
+Por região.
+É possível conectar 2 AWS Transit Gateway com peering e fazer a wan.
+
+Firewall na AWS 
+
+Security group firewall -> inbound and outbound rule; Stateful
+Network ACLs -> Stateless
