@@ -175,3 +175,9 @@ Firewall na AWS
 
 Security group firewall -> inbound and outbound rule; Stateful
 Network ACLs -> Stateless
+
+A -> IPV4
+AAAA -> IPV6
+CNAME -> Apontando para outro dns
+
+Amazon Route 53
