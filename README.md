@@ -151,6 +151,12 @@ Subnet publica: visivel para internte
 2- subnet publica
 3- ip publico internet gateway
 
+
+Conexão subnet privada para internet:
+NAT Gateway -> modem
+Subnet privada manda pra nat gateway que está na subnet publica
+e nat gateway manda pro internet gateway.
+
 Peering conection
 Conexão entre 2 vpc
 
@@ -173,8 +179,8 @@ Por região.
 
 Firewall na AWS 
 
-Security group firewall -> inbound and outbound rule; Stateful
-Network ACLs -> Stateless
+Security group firewall -> inbound and outbound rule; Stateful, abre só uma porta e negócia depois a de saída automaticamente.
+Network ACLs -> Stateless, precisa abrir porta de entrada e todas de saída que vai utilizar.
 
 A -> IPV4
 AAAA -> IPV6
@@ -185,3 +191,9 @@ Roteia as conexões, serviço de DNS da AWS.
 
 Amazon CloudFront
 CDN da AWS -> Carrega para edge locations o conteúdo
+
+# AULA 24/09
+
+VPC Flow logs
+Logs de portas usadas, quem mandou, quem recebeu e quando aconteceu
+
