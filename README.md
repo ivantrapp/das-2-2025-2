@@ -43,7 +43,12 @@ Securing infrastructure with encryption in transit and at rest.
 
 # AULA 06/08
 
+Responsabilidade compartilhada -> a nuvem deve prover o serviço e manter CASO o serviço seja gerenciado pela nuvem.
+Quando não for, o cliente(usuário) é quem possui a responsabilidade de gerencia-lo.
+
 IAM
+Privilégio mínimo -> Gerar conta com permissão um nível a baixo de owner para trabalhar na AWS.
+Quando dar permissões, tudo é sempre negado antes de permitir, apenas a permissão explicita que libera o acesso para o recurso.
 
 # AULA 13/08
 IAM Roles -> definição para cargos temporários para usuários.
@@ -81,6 +86,25 @@ Storage class
 Standard, Intelligent tiering, infrequent-access, glacier instant retrieval, glacier flexible retriever, glacier deep archive;
 
 # AULA 27/08
+.vscode/launch.json
+
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "env": {
+                "AWS_ACCESS_KEY_ID": "",
+                "AWS_SECRET_ACCESS_KEY": ""
+            },
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
 
 S3 -> Escolher região:
 leis -> latência -> features do S3 por região -> custo de armazenamento
