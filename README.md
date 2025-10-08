@@ -221,3 +221,28 @@ CDN da AWS -> Carrega para edge locations o conteúdo
 VPC Flow logs
 Logs de portas usadas, quem mandou, quem recebeu e quando aconteceu
 
+# AULA 08/10
+
+RBAC -> Papéis que dão permissões para usuários e usuários recebem esses papéis de alguma forma
+ABAC -> RBAC + controle por tags em serviços
+
+AWS IAM Identity center -> 
+AWS Security token service -> Suporta usuário federado
+Amazon Cognito -> B2C, autenticação, autorização e features
+AWWS Organizations -> Funcionalidade par aoganizar diversas contas na AWS, 
+escuta AWS Primayj.
+
+AWS Control Tower -> centraliza fluxos e integrações.
+
+Criptografia
+Chave simétrica: a mesma chave criptografa e descriptográfica
+Chave assimétrica: uma chave que criptografa e outra que descriptográfica
+
+AWS KMS -> Key management service, guarda chave privadas.
+
+AWS HSM -> Hardware kms.
+
+AWS WAF -> Web application firewall para detectar sql injection
+AWS Macie -> Scraper de dados sensíveis em s3 e banco de dados
+Amazon inspector -> Ferramenta que lê código e procura pacotes com brechas de segurança para evitar (supplychain)
+Amazon Detective -> Analisa a conta AWS e ajuda resolver.
