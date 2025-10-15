@@ -246,3 +246,30 @@ AWS WAF -> Web application firewall para detectar sql injection
 AWS Macie -> Scraper de dados sensíveis em s3 e banco de dados
 Amazon inspector -> Ferramenta que lê código e procura pacotes com brechas de segurança para evitar (supplychain)
 Amazon Detective -> Analisa a conta AWS e ajuda resolver.
+
+
+# AULA 15/10/25
+
+Cloudwatch -> Métricas e logs
+Cloudwatch alarms -> pode pedir pra escalar ec2 de acordo com valores ou disparar mensagem de email para alertar.
+
+EventBridge -> Kafka dentro da aws que recebe eventos dos serviços da aws e pode  criar lógica de scheduler e ouvir/publicar eventos.
+
+AWS Budgets -> criar budget de valor que vai gastar
+AWS Cost explorer -> olhar valor dos serviços utilizados
+AWS Cost and Usage report -> 
+
+Escalabilidade -> Elasticidade na nuvem, responsividade, resiliencia, message-driven
+
+Escalabilidade vertical -> Escalar memória da vm, melhorar cpu, em uma vm só.
+Horizontal -> Mais cópias da mesma maquina.
+
+Amazon EC2 Auto Scaling -> Ferramenta para controlar numero de maquinas na aws.
+
+Escalar banco de dados na aws
+AWS AURORA -> relacional padrão
+AWS AURORA SERVERLESS -> relacional ativo/ativo
+AWS DYNAMO DB -> não relacional
+
+AWS Elastic Load Balancer(ELB) -> Balanceador de carga
+Inventory-LB-420189483.us-east-1.elb.amazonaws.com
