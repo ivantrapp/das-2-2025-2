@@ -272,4 +272,3 @@ AWS AURORA SERVERLESS -> relacional ativo/ativo
 AWS DYNAMO DB -> não relacional
 
 AWS Elastic Load Balancer(ELB) -> Balanceador de carga
-Inventory-LB-420189483.us-east-1.elb.amazonaws.com
