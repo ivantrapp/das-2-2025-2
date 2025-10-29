@@ -272,3 +272,15 @@ AWS AURORA SERVERLESS -> relacional ativo/ativo
 AWS DYNAMO DB -> não relacional
 
 AWS Elastic Load Balancer(ELB) -> Balanceador de carga
+
+
+# AULA 29/10
+
+Cache na nuvem
+
+Amazon CloudFront -> CDN Cache
+Edge location -> regional edge cache -> banco na região
+
+Amazon ElastiCache -> Cache diretamente do banco de dados.
+Lazy loading -> se cache miss, pede pro banco e depois atualiza o cache.
+Write-through -> atualiza o cache e atualiza o banco. 
