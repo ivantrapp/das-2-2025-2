@@ -284,3 +284,16 @@ Edge location -> regional edge cache -> banco na região
 Amazon ElastiCache -> Cache diretamente do banco de dados.
 Lazy loading -> se cache miss, pede pro banco e depois atualiza o cache.
 Write-through -> atualiza o cache e atualiza o banco. 
+
+
+# AULA 12/11
+
+AWS Serverless Microservices
+
+AWS Lambda -> executa pequenas tarefas
+
+AWS Fargate -> ECS e EKS podem usar o fargat para rodar a computação.
+
+AWS Step Function -> No code AWS, N8N.
+
+AWS Api Gateway -> Load balancer, mantem e cria REST, HTTP, WEBSOCKET.
