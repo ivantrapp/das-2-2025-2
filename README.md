@@ -273,6 +273,9 @@ AWS DYNAMO DB -> não relacional
 
 AWS Elastic Load Balancer(ELB) -> Balanceador de carga
 
+# AULA 22/10
+
+Automatizando infraestrutura
 
 # AULA 29/10
 
@@ -285,6 +288,12 @@ Amazon ElastiCache -> Cache diretamente do banco de dados.
 Lazy loading -> se cache miss, pede pro banco e depois atualiza o cache.
 Write-through -> atualiza o cache e atualiza o banco. 
 
+# AULA 05/11
+
+Amazon SQS -> fila de mensagens assíncrona
+Possue uma DLQ própria para reprocessamento de mensagens.
+
+Amazon SNS -> Pub/sub padrão, publica mensagens em tópicos. 
 
 # AULA 12/11
 
